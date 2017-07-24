@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E24EF54119BC5149007D17C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24EF54019BC5149007D17C7 /* Foundation.framework */; };
+		E24EF54319BC5149007D17C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24EF54219BC5149007D17C7 /* CoreGraphics.framework */; };
+		E24EF54519BC5149007D17C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24EF54419BC5149007D17C7 /* UIKit.framework */; };
+		E24EF54B19BC5149007D17C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E24EF54919BC5149007D17C7 /* InfoPlist.strings */; };
+		E24EF54D19BC5149007D17C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E24EF54C19BC5149007D17C7 /* main.m */; };
+		E24EF55119BC5149007D17C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E24EF55019BC5149007D17C7 /* AppDelegate.m */; };
+		E24EF55319BC5149007D17C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24EF55219BC5149007D17C7 /* Images.xcassets */; };
+		E24EF57219BC51A6007D17C7 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = E24EF57119BC51A6007D17C7 /* MainScreen.m */; };
+		E24EF57519BC51DE007D17C7 /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = E24EF57419BC51DE007D17C7 /* BootLogic.m */; };
+		E24EF57C19BC6216007D17C7 /* BasicA.m in Sources */ = {isa = PBXBuildFile; fileRef = E24EF57B19BC6216007D17C7 /* BasicA.m */; };
+		E24EF58019BC622C007D17C7 /* BasicB.m in Sources */ = {isa = PBXBuildFile; fileRef = E24EF57E19BC622C007D17C7 /* BasicB.m */; };
+		E24EF58119BC622C007D17C7 /* BasicB.xib in Resources */ = {isa = PBXBuildFile; fileRef = E24EF57F19BC622C007D17C7 /* BasicB.xib */; };
+		E26E233019BC652800C7841B /* ConsoleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = E26E232F19BC652800C7841B /* ConsoleScreen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E24EF53D19BC5148007D17C7 /* TechmasterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechmasterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24EF54019BC5149007D17C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E24EF54219BC5149007D17C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E24EF54419BC5149007D17C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E24EF54819BC5149007D17C7 /* TechmasterApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TechmasterApp-Info.plist"; sourceTree = "<group>"; };
+		E24EF54A19BC5149007D17C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E24EF54C19BC5149007D17C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E24EF54E19BC5149007D17C7 /* TechmasterApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TechmasterApp-Prefix.pch"; sourceTree = "<group>"; };
+		E24EF54F19BC5149007D17C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E24EF55019BC5149007D17C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E24EF55219BC5149007D17C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E24EF55919BC5149007D17C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E24EF57019BC51A6007D17C7 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
+		E24EF57119BC51A6007D17C7 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
+		E24EF57319BC51DE007D17C7 /* BootLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootLogic.h; sourceTree = "<group>"; };
+		E24EF57419BC51DE007D17C7 /* BootLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootLogic.m; sourceTree = "<group>"; };
+		E24EF57A19BC6216007D17C7 /* BasicA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicA.h; sourceTree = "<group>"; };
+		E24EF57B19BC6216007D17C7 /* BasicA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicA.m; sourceTree = "<group>"; };
+		E24EF57D19BC622C007D17C7 /* BasicB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicB.h; sourceTree = "<group>"; };
+		E24EF57E19BC622C007D17C7 /* BasicB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicB.m; sourceTree = "<group>"; };
+		E24EF57F19BC622C007D17C7 /* BasicB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicB.xib; sourceTree = "<group>"; };
+		E26E232E19BC652800C7841B /* ConsoleScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleScreen.h; sourceTree = "<group>"; };
+		E26E232F19BC652800C7841B /* ConsoleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleScreen.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E24EF53A19BC5148007D17C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24EF54319BC5149007D17C7 /* CoreGraphics.framework in Frameworks */,
+				E24EF54519BC5149007D17C7 /* UIKit.framework in Frameworks */,
+				E24EF54119BC5149007D17C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E24EF53419BC5148007D17C7 = {
+			isa = PBXGroup;
+			children = (
+				E24EF54619BC5149007D17C7 /* TechmasterApp */,
+				E24EF53F19BC5148007D17C7 /* Frameworks */,
+				E24EF53E19BC5148007D17C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E24EF53E19BC5148007D17C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E24EF53D19BC5148007D17C7 /* TechmasterApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E24EF53F19BC5148007D17C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E24EF54019BC5149007D17C7 /* Foundation.framework */,
+				E24EF54219BC5149007D17C7 /* CoreGraphics.framework */,
+				E24EF54419BC5149007D17C7 /* UIKit.framework */,
+				E24EF55919BC5149007D17C7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E24EF54619BC5149007D17C7 /* TechmasterApp */ = {
+			isa = PBXGroup;
+			children = (
+				E24EF54F19BC5149007D17C7 /* AppDelegate.h */,
+				E24EF55019BC5149007D17C7 /* AppDelegate.m */,
+				E24EF56F19BC5178007D17C7 /* MainScreen */,
+				E24EF57619BC61D3007D17C7 /* DetailScreens */,
+				E24EF55219BC5149007D17C7 /* Images.xcassets */,
+				E24EF54719BC5149007D17C7 /* Supporting Files */,
+			);
+			path = TechmasterApp;
+			sourceTree = "<group>";
+		};
+		E24EF54719BC5149007D17C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E24EF54819BC5149007D17C7 /* TechmasterApp-Info.plist */,
+				E24EF54919BC5149007D17C7 /* InfoPlist.strings */,
+				E24EF54C19BC5149007D17C7 /* main.m */,
+				E24EF54E19BC5149007D17C7 /* TechmasterApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E24EF56F19BC5178007D17C7 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E24EF57319BC51DE007D17C7 /* BootLogic.h */,
+				E24EF57419BC51DE007D17C7 /* BootLogic.m */,
+				E24EF57019BC51A6007D17C7 /* MainScreen.h */,
+				E24EF57119BC51A6007D17C7 /* MainScreen.m */,
+				E26E232E19BC652800C7841B /* ConsoleScreen.h */,
+				E26E232F19BC652800C7841B /* ConsoleScreen.m */,
+			);
+			name = MainScreen;
+			sourceTree = "<group>";
+		};
+		E24EF57619BC61D3007D17C7 /* DetailScreens */ = {
+			isa = PBXGroup;
+			children = (
+				E24EF57719BC61DF007D17C7 /* Basic */,
+				E24EF57819BC61E4007D17C7 /* Intermediate */,
+				E24EF57919BC61EB007D17C7 /* Advanced */,
+			);
+			name = DetailScreens;
+			sourceTree = "<group>";
+		};
+		E24EF57719BC61DF007D17C7 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				E24EF57A19BC6216007D17C7 /* BasicA.h */,
+				E24EF57B19BC6216007D17C7 /* BasicA.m */,
+				E24EF57D19BC622C007D17C7 /* BasicB.h */,
+				E24EF57E19BC622C007D17C7 /* BasicB.m */,
+				E24EF57F19BC622C007D17C7 /* BasicB.xib */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		E24EF57819BC61E4007D17C7 /* Intermediate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Intermediate;
+			sourceTree = "<group>";
+		};
+		E24EF57919BC61EB007D17C7 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Advanced;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E24EF53C19BC5148007D17C7 /* TechmasterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E24EF56919BC5149007D17C7 /* Build configuration list for PBXNativeTarget "TechmasterApp" */;
+			buildPhases = (
+				E24EF53919BC5148007D17C7 /* Sources */,
+				E24EF53A19BC5148007D17C7 /* Frameworks */,
+				E24EF53B19BC5148007D17C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechmasterApp;
+			productName = TechmasterApp;
+			productReference = E24EF53D19BC5148007D17C7 /* TechmasterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E24EF53519BC5148007D17C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Techmaster;
+			};
+			buildConfigurationList = E24EF53819BC5148007D17C7 /* Build configuration list for PBXProject "TechmasterApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E24EF53419BC5148007D17C7;
+			productRefGroup = E24EF53E19BC5148007D17C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E24EF53C19BC5148007D17C7 /* TechmasterApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E24EF53B19BC5148007D17C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24EF54B19BC5149007D17C7 /* InfoPlist.strings in Resources */,
+				E24EF55319BC5149007D17C7 /* Images.xcassets in Resources */,
+				E24EF58119BC622C007D17C7 /* BasicB.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E24EF53919BC5148007D17C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24EF57C19BC6216007D17C7 /* BasicA.m in Sources */,
+				E24EF57519BC51DE007D17C7 /* BootLogic.m in Sources */,
+				E24EF55119BC5149007D17C7 /* AppDelegate.m in Sources */,
+				E24EF54D19BC5149007D17C7 /* main.m in Sources */,
+				E24EF57219BC51A6007D17C7 /* MainScreen.m in Sources */,
+				E24EF58019BC622C007D17C7 /* BasicB.m in Sources */,
+				E26E233019BC652800C7841B /* ConsoleScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E24EF54919BC5149007D17C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E24EF54A19BC5149007D17C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E24EF56719BC5149007D17C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E24EF56819BC5149007D17C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E24EF56A19BC5149007D17C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TechmasterApp/TechmasterApp-Prefix.pch";
+				INFOPLIST_FILE = "TechmasterApp/TechmasterApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E24EF56B19BC5149007D17C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TechmasterApp/TechmasterApp-Prefix.pch";
+				INFOPLIST_FILE = "TechmasterApp/TechmasterApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E24EF53819BC5148007D17C7 /* Build configuration list for PBXProject "TechmasterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24EF56719BC5149007D17C7 /* Debug */,
+				E24EF56819BC5149007D17C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E24EF56919BC5149007D17C7 /* Build configuration list for PBXNativeTarget "TechmasterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24EF56A19BC5149007D17C7 /* Debug */,
+				E24EF56B19BC5149007D17C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E24EF53519BC5148007D17C7 /* Project object */;
+}
